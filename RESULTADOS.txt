@@ -1,0 +1,248 @@
+
+
+WLD MULTISCALE + LBP
+---------------------------------------
+
+EXPERIMENTO 1 (CASIA 1.0) COM Cr
+
+亦Escala C7
+testand conj0
+Accuracy = 91.8605% (158/172) (classification)
+testand conj1
+Accuracy = 87.7907% (151/172) (classification)
+testand conj2
+Accuracy = 88.9535% (153/172) (classification)
+testand conj3
+Accuracy = 90.1163% (155/172) (classification)
+testand conj4
+Accuracy = 90.1163% (155/172) (classification)
+testand conj5
+Accuracy = 80.814% (139/172) (classification)
+testand conj6
+Accuracy = 86.6279% (149/172) (classification)
+testand conj7
+Accuracy = 90.1163% (155/172) (classification)
+testand conj8
+Accuracy = 87.7907% (151/172) (classification)
+testand conj9
+Accuracy = 93.0233% (160/172) (classification)
+
+
+EXPERIMENTO 2 (CASIA 1.0) COM Cr
+
+ẄEscala C7
+testand conj0
+Accuracy = 89.5349% (154/172) (classification)
+testand conj1
+Accuracy = 84.3023% (145/172) (classification)
+testand conj2
+Accuracy = 84.8837% (146/172) (classification)
+testand conj3
+Accuracy = 86.6279% (149/172) (classification)
+testand conj4
+Accuracy = 91.8605% (158/172) (classification)
+testand conj5
+Accuracy = 89.5349% (154/172) (classification)
+testand conj6
+Accuracy = 90.1163% (155/172) (classification)
+testand conj7
+Accuracy = 91.2791% (157/172) (classification)
+testand conj8
+Accuracy = 88.3721% (152/172) (classification)
+testand conj9
+Accuracy = 90.1163% (155/172) (classification)
+
+EXPERIMENTO 3 (CASIA 2.0) COM Cr
+Escala C7
+testand conj0
+Accuracy = 83.4737% (793/950) (classification)
+testand conj1
+Accuracy = 87.4737% (831/950) (classification)
+testand conj2
+Accuracy = 85.0526% (808/950) (classification)
+testand conj3
+Accuracy = 86.1053% (818/950) (classification)
+testand conj4
+Accuracy = 84.4211% (802/950) (classification)
+testand conj5
+Accuracy = 85.0526% (808/950) (classification)
+testand conj6
+Accuracy = 85.2632% (810/950) (classification)
+testand conj7
+Accuracy = 84.1053% (799/950) (classification)
+testand conj8
+Accuracy = 84.4211% (802/950) (classification)
+testand conj9
+Accuracy = 87.9747% (834/948) (classification)
+
+EXPERIMENTO 4 (CASIA 1.0) COM Cr
+
+testand conj0
+Accuracy = 84.3023% (145/172) (classification)
+testand conj1
+Accuracy = 91.8605% (158/172) (classification)
+testand conj2
+Accuracy = 87.2093% (150/172) (classification)
+testand conj3
+Accuracy = 86.6279% (149/172) (classification)
+testand conj4
+Accuracy = 88.9535% (153/172) (classification)
+testand conj5
+Accuracy = 85.4651% (147/172) (classification)
+testand conj6
+Accuracy = 87.2093% (150/172) (classification)
+testand conj7
+Accuracy = 87.7907% (151/172) (classification)
+testand conj8
+Accuracy = 86.0465% (148/172) (classification)
+testand conj9
+Accuracy = 86.0465% (148/172) (classification)
+
+
+EXPERIMENTO 5 (CASIA 2.0) COM Cb
+
+Escala C7
+testand conj0
+Accuracy = 82.3592% (775/941) (classification)
+testand conj1
+Accuracy = 83.6344% (787/941) (classification)
+testand conj2
+Accuracy = 82.5717% (777/941) (classification)
+testand conj3
+Accuracy = 84.0595% (791/941) (classification)
+testand conj4
+Accuracy = 83.1031% (782/941) (classification)
+testand conj5
+Accuracy = 84.9097% (799/941) (classification)
+testand conj6
+Accuracy = 83.9532% (790/941) (classification)
+testand conj7
+Accuracy = 82.8905% (780/941) (classification)
+testand conj8
+Accuracy = 82.7843% (779/941) (classification)
+testand conj9
+Accuracy = 83.2094% (783/941) (classification)
+
+APENAS MULTISCALE WLD
+
+EXPERIMENTO 6 (CASIA 2.0) COM Cb
+
+testand conj0
+Accuracy = 83.5282% (786/941) (classification)
+testand conj1
+Accuracy = 83.3156% (784/941) (classification)
+testand conj2
+Accuracy = 84.1658% (792/941) (classification)
+testand conj3
+Accuracy = 82.678% (778/941) (classification)
+testand conj4
+Accuracy = 82.5717% (777/941) (classification)
+testand conj5
+Accuracy = 83.2094% (783/941) (classification)
+testand conj6
+Accuracy = 82.1467% (773/941) (classification)
+testand conj7
+Accuracy = 82.7843% (779/941) (classification)
+testand conj8
+Accuracy = 82.0404% (772/941) (classification)
+testand conj9
+Accuracy = 82.9968% (781/941) (classification)
+
+EXPERIMENTO 7 (CASIA 1.0) COM Cb
+
+Escala C7
+testand conj0
+Accuracy = 91.8605% (158/172) (classification)
+testand conj1
+Accuracy = 90.1163% (155/172) (classification)
+testand conj2
+Accuracy = 86.6279% (149/172) (classification)
+testand conj3
+Accuracy = 84.3023% (145/172) (classification)
+testand conj4
+Accuracy = 91.2791% (157/172) (classification)
+testand conj5
+Accuracy = 85.4651% (147/172) (classification)
+testand conj6
+Accuracy = 91.2791% (157/172) (classification)
+testand conj7
+Accuracy = 84.8837% (146/172) (classification)
+testand conj8
+Accuracy = 85.4651% (147/172) (classification)
+testand conj9
+Accuracy = 88.3721% (152/172) (classification)
+
+
+
+EXPERIMENTO CASIA V1.0 - Cr
+
+Accuracy = 87.7907% (151/172) (classification)
+testand conj1
+Accuracy = 91.8605% (158/172) (classification)
+testand conj2
+Accuracy = 87.2093% (150/172) (classification)
+testand conj3
+Accuracy = 86.0465% (148/172) (classification)
+testand conj4
+Accuracy = 87.2093% (150/172) (classification)
+testand conj5
+Accuracy = 86.6279% (149/172) (classification)
+testand conj6
+Accuracy = 86.0465% (148/172) (classification)
+testand conj7
+Accuracy = 84.3023% (145/172) (classification)
+testand conj8
+Accuracy = 84.3023% (145/172) (classification)
+testand conj9
+Accuracy = 84.8837% (146/172) (classification)
+
+EXPERIMENTO 8 CASIA 1.0 - Cb com WLD24
+
+Escala C3
+testand conj0
+Accuracy = 81.3953% (140/172) (classification)
+testand conj1
+Accuracy = 72.6744% (125/172) (classification)
+testand conj2
+Accuracy = 76.7442% (132/172) (classification)
+testand conj3
+Accuracy = 78.4884% (135/172) (classification)
+testand conj4
+Accuracy = 76.1628% (131/172) (classification)
+testand conj5
+Accuracy = 78.4884% (135/172) (classification)
+testand conj6
+Accuracy = 75.5814% (130/172) (classification)
+testand conj7
+Accuracy = 80.814% (139/172) (classification)
+testand conj8
+Accuracy = 79.0698% (136/172) (classification)
+testand conj9
+Accuracy = 77.907% (134/172) (classification)
+>> 
+
+
+EXPERIMENTO 9  CASIA 1.0 cr com WLD24
+
+
+Escala C3
+testand conj0
+Accuracy = 83.7209% (144/172) (classification)
+testand conj1
+Accuracy = 80.814% (139/172) (classification)
+testand conj2
+Accuracy = 78.4884% (135/172) (classification)
+testand conj3
+Accuracy = 78.4884% (135/172) (classification)
+testand conj4
+Accuracy = 81.3953% (140/172) (classification)
+testand conj5
+Accuracy = 77.3256% (133/172) (classification)
+testand conj6
+Accuracy = 76.1628% (131/172) (classification)
+testand conj7
+Accuracy = 79.0698% (136/172) (classification)
+testand conj8
+Accuracy = 82.5581% (142/172) (classification)
+testand conj9
+Accuracy = 77.3256% (133/172) (classification)
