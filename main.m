@@ -9,5 +9,5 @@ createFeaturesWLD;
 createCConjs;
 createConjsTrain;
 
-train
-test
+train;
+test;

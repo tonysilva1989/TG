@@ -2,7 +2,8 @@
 
 WLD MULTISCALE + LBP
 ---------------------------------------
-
+  88.7209% MÉDIA
+  
 EXPERIMENTO 1 (CASIA 1.0) COM Cr
 
 亦Escala C7
