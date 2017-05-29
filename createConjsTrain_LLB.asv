@@ -41,7 +41,7 @@ for k=0:9
                 patterns = [matrizTR; matrizTE];
                 patterns = patterns';
                 targets = [rotulosTR',rotulosTE'];
-                targets = targets+1;  %[0,1] -> [1,2] (label das classes)
+                targets = targets+1;  %[0,1] -> [1,2]
                 dim = size(patterns,1);
 
                 %normalizando os dados:
@@ -56,7 +56,7 @@ for k=0:9
                     end
                 end
 
-                disp('Aplicando a redução de dimensionalidade para ser usado em treinamento e teste');
+                disp ('Aplicando a redução de dimensionalidade para ser usado em treinamento e teste');
                 Weight = Logo(patterns, targets(:), Para);
                 %%apenas pra salvar:
                 save(['pesos.mat'], 'Weight');
@@ -64,7 +64,7 @@ for k=0:9
 
             [val ind] = sort(Weight,'descend'); %dá um sort nos pesos, organizando por índices
 
-            K = 502; %pega os K maiores índices do array de pesos (escolha empírica)
+            K = 600; %pega os K maiores índices do array de pesos (escolha empírica)
             first_k = ind(1:K);
             %neste ponto, os k maiores pesos estão desordenados, neste caso é bom
             %organizar os índices para serem extraídos da matriz original na devida

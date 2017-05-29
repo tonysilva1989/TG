@@ -9,14 +9,24 @@ for k=0:9
     for i=1:length(fold);
         disp (['Extraindo caracter�sticas fold ' num2str(k) ' img: ' num2str(i)]);
         if(classFold(i)==1)
-            img = imread(['CASIA1/AU/' fold{i}]);			
-            img2 = rgb2gray(img); %converte para escala de cinza
+            img = imread(['CASIA1/AU/' fold{i}]);	
+            
+            imageYCbCr = rgb2ycbcr(img);
+            % get the chrominance component Cr (1: Y, 2: Cb, 3: Cr)
+            img2 = imageYCbCr(:,:,3);
+            
+            %img2 = rgb2gray(img); %converte para escala de cinza
             img3 = imfilter(img2,G,'same'); %aplicando filtro gaussiano para borramento
             X = [X; lbp(img3,3,24,mapping,'h')];
         elseif(classFold(i)==0)
 			%realizar uma conversão pra tons de cinza e aplicar um filtro gaussiano (paper do LBP)?
             img = imread(['CASIA1/Sp/' fold{i}]);
-            img2 = rgb2gray(img); %converte para escala de cinza
+            
+            imageYCbCr = rgb2ycbcr(img);
+            % get the chrominance component Cr (1: Y, 2: Cb, 3: Cr)
+            img2 = imageYCbCr(:,:,3);
+            
+            %img2 = rgb2gray(img); %converte para escala de cinza
             img3 = imfilter(img2,G,'same'); %aplicando filtro gaussiano para borramento
             X = [X; lbp(img3,3,24,mapping,'h')];
         end
