@@ -18,7 +18,7 @@ for k=0:9
     
     for i=conj
         % treinamento
-        %disp(['estou no fold ' num2str(k) ]);
+        disp('mostrando o conjunto'
         load(['folds/class_' num2str(i)]);
         load(['featuresWLDLBPC7/X_' num2str(i)]);
         %load(['featuresLBPC7/X_' num2str(k)]);

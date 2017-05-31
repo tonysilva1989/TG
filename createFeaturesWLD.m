@@ -11,11 +11,9 @@ for k=0:9
         if(classFold(i)==1) % se � igual a 1, � aut�ntica
             img = imread(['CASIA1/AU/' fold{i}]);
             X = [X; featureWLD(img), featureWLD16(img), featureWLD24(img)];
-            %X = [X; featureWLD24(img)];
         elseif(classFold(i)==0) % se for 0, � spliced
             img = imread(['CASIA1/Sp/' fold{i}]);
             X = [X; featureWLD(img), featureWLD16(img), featureWLD24(img)];
-            %X = [X; featureWLD24(img)];
         end
     end
     %guarda todas as features das imagens em um vetor coluna de vetores X_n

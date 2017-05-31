@@ -59,12 +59,12 @@ for k=0:9
                 disp('Aplicando a redução de dimensionalidade para ser usado em treinamento e teste');
                 Weight = Logo(patterns, targets(:), Para);
                 %%apenas pra salvar:
-                save(['pesos.mat'], 'Weight');
+                %save(['pesos.mat'], 'Weight');
             end
 
             [val ind] = sort(Weight,'descend'); %dá um sort nos pesos, organizando por índices
 
-            K = 502; %pega os K maiores índices do array de pesos (escolha empírica)
+            K = 173; %pega os K maiores índices do array de pesos (escolha empírica)
             first_k = ind(1:K);
             %neste ponto, os k maiores pesos estão desordenados, neste caso é bom
             %organizar os índices para serem extraídos da matriz original na devida

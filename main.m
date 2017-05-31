@@ -1,10 +1,10 @@
 
 disp('Criando os Folds');
-createFolds;
+%createFolds;
 disp('Extraindo LBP');
 createFeaturesLBP;
-disp('Extraindo WLD');
-createFeaturesWLD;
+%disp('Extraindo WLD');
+%createFeaturesWLD;
 
 createCConjs;
 createConjsTrain;

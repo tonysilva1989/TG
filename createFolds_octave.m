@@ -40,6 +40,6 @@ for i=0:9
     
     %PARÂMETRO EXTRA DO OCTAVE PARA QUE OS ARQUIVOS SALVOS SEJAM LIDOS PELO MATLAB SEM ERROS DE CODIFICAÇÃO
     %as opções podem ser vistas em https://www.gnu.org/software/octave/doc/v4.2.0/Simple-File-I_002fO.html
-    save ("-mat7-binary", ['folds/fold_' num2str(i) '.mat'], 'fold');
-    save ("-mat7-binary", ['folds/class_' num2str(i) '.mat'], 'classFold');
+    save("-mat7-binary", ['folds/fold_' num2str(i) '.mat'], 'fold');
+    save("-mat7-binary", ['folds/class_' num2str(i) '.mat'], 'classFold');
 end

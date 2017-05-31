@@ -5,8 +5,8 @@
 %case of publication with this code, please cite the paper above.
 
 function H=HOG(Im)
-nwin_x=8;%set here the number of HOG windows per bound box
-nwin_y=8;
+nwin_x=16;%set here the number of HOG windows per bound box
+nwin_y=16;
 B=9;%set here the number of histogram bins
 [L,C]=size(Im); % L num of lines ; C num of columns
 H=zeros(nwin_x*nwin_y*B,1); % column vector with zeros

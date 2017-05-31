@@ -1,6 +1,9 @@
+flag = 0;
 fl=0;
-
+%tam_padr = 540;
 for k=0:9
+%for k=3
+
 
     load(['folds/fold_' num2str(k) '.mat' ] ); % carrega a variï¿½vel fold
     load(['folds/class_' num2str(k) '.mat' ]); % carrega as classes das imagens
@@ -28,6 +31,7 @@ for k=0:9
             if (isempty(out)) %um caso está dando array vazio
                 out = zeros(1,tam_padr);
             else
+                %[um, tam_atual] = size(out);
                 %na primeira execução do código, X ainda está vazio e não
                 %tem dimensão, neste caso ele pega antecipadamente a
                 %dimensão do vetor out calculada primeiramente
@@ -61,7 +65,6 @@ for k=0:9
             [um tam_atual] = size(out);
 
             %garante que a primeira vez que o código for executado, irá
-            %guardar a dimensão para todos os folds
             if fl == 0
                [um tam_padr] = size(out);
                fl = 1;
