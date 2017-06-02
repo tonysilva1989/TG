@@ -1,12 +1,13 @@
 function imageHist = featureWLD16(imageRGB)
 
     % converted image into the YCbCr color space
-    imageYCbCr = rgb2ycbcr(imageRGB);
+   % imageYCbCr = rgb2ycbcr(imageRGB);
 
     % get the chrominance component Cr
-    inputImageCr = imageYCbCr(:,:,3);
+    %inputImageCr = imageYCbCr(:,:,3);
 
     % following the happy path
+    inputImageCr = rgb2gray(imageRGB);
 
     % Determine the dimensions of the input image.
     [ySize, xSize] = size(inputImageCr);

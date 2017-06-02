@@ -16,25 +16,25 @@
 %     save(['featuresWLDLBPC7/X_' num2str(k) '.mat'], 'C8'); %guarda a combinaï¿½ï¿½o de features do fold atual em X_n
 % end
 
-%WLD
-% for k=0:9
-%     C8 = [];
-%     load(['featuresWLDC7/X_' num2str(k)]); %retira o X do fold atual apenas com o WLD e joga em C8
-%     C8 = X;
-%     save(['featuresWLDLBPC7/X_' num2str(k) '.mat'], 'C8'); %guarda a combinaï¿½ï¿½o de features do fold atual em X_n
-% end
-
-%LBP+HOG
+% WLD
 for k=0:9
     C8 = [];
-    load(['featuresLBPC7/X_' num2str(k)]); %retira o X do fold atual apenas com o WLD e joga em C8
-    C8 = [C8 X];
-    load(['featuresHOGC7/X_' num2str(k)]); %retira o X do fold atual apenas com o WLD e joga em C8
-    C8 = [C8 (X*1000)]; %as features possuem valores muito baixos, causando baixa representatividade de pesos dos atributos, fazendo com que 
-                        %a acurácia da combinação sendo igual a apenas LBP
-                        %(features com mais representatividade)
+    load(['featuresWLDC7/X_' num2str(k)]); %retira o X do fold atual apenas com o WLD e joga em C8
+    C8 = X;
     save(['featuresWLDLBPC7/X_' num2str(k) '.mat'], 'C8'); %guarda a combinaï¿½ï¿½o de features do fold atual em X_n
 end
+
+% %LBP+HOG
+% for k=0:9
+%     C8 = [];
+%     load(['featuresLBPC7/X_' num2str(k)]); %retira o X do fold atual apenas com o WLD e joga em C8
+%     C8 = [C8 X];
+%     load(['featuresHOGC7/X_' num2str(k)]); %retira o X do fold atual apenas com o WLD e joga em C8
+%     C8 = [C8 (X*1000)]; %as features possuem valores muito baixos, causando baixa representatividade de pesos dos atributos, fazendo com que 
+%                         %a acurácia da combinação sendo igual a apenas LBP
+%                         %(features com mais representatividade)
+%     save(['featuresWLDLBPC7/X_' num2str(k) '.mat'], 'C8'); %guarda a combinaï¿½ï¿½o de features do fold atual em X_n
+% end
 
 % %WLD+HOG
 % for k=0:9
@@ -47,7 +47,7 @@ end
 % end
 
 
-% % LBP e WLD
+% % LBP + WLD
 % for k=0:9
 %     C8 = [];
 %     load(['featuresWLDC7/X_' num2str(k)]); %retira o X do fold atual apenas com o WLD e joga em C8
@@ -70,14 +70,7 @@ end
 % end
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %LBP MULTISCALE (8,16,24)
-% for k=0:9
-%     C8 = [];
-%     load(['featuresLBPC7_MS/X_' num2str(k)]); %retira o X do fold atual apenas com o WLD e joga em C8
-%     C8 = X;
-%     save(['featuresWLDLBPC7/X_' num2str(k) '.mat'], 'C8'); %guarda a combinaï¿½ï¿½o de features do fold atual em X_n
-% end
+
 
 
 
